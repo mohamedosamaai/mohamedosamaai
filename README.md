@@ -1,11 +1,6 @@
 <div align="center">
-  <!-- Custom premium visual banner -->
-  <a href="https://mohamedosama.me"><img src="docs/assets/banner.jpg" width="100%" alt="Mohamed Osama Banner" style="border-radius: 8px;" /></a>
-  
-  <br><br>
-  
   <!-- Typing animation matching the cyber-violet design theme -->
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Outfit&size=24&pause=1000&color=C084FC&center=true&vCenter=true&width=600&lines=Founder+%26+Lead+Systems+Architect+%40+Bagback;AI+Infrastructure+%26+Multi--Tenant+SaaS;Real--Time+Systems+%26+3D+WebGL;Architecting+Scale+%26+Performance" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Outfit&size=24&pause=1000&color=C084FC&center=true&vCenter=true&width=600&lines=Hello,+welcome+to+my+GitHub+workspace!;Focusing+on+AI+Infrastructure+%26+SaaS+Engines;Exploring+Real-Time+Systems+%26+3D+WebGL" alt="Typing SVG" /></a>
 
   <br>
 
@@ -33,7 +28,7 @@
 ---
 
 <div align="center">
-  <h3>📊 Architectural Metrics & Infrastructure Overview</h3>
+  <h3>Architectural Metrics & Infrastructure Overview</h3>
   
   <table align="center" style="border: none; border-collapse: collapse; width: 100%;">
     <tr style="border: none;">
@@ -59,7 +54,7 @@
 
 ---
 
-## 🏛️ Executive Engineering Overview
+## Executive Engineering Overview
 
 I am Mohamed Osama, Founder & Lead Systems Architect at **Bagback Digital Solutions**. This repository serves as the central architectural hub and technical blueprint for production platforms, microservice engines, and digital transformation solutions engineered across my software practice.
 
@@ -67,62 +62,48 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 ---
 
-## 📊 GitHub Analytics & Repository Metrics
+## Tech Stack & Systems Toolbox
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td width="50%" align="center" style="border: none; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=mohamedosamaai&show_icons=true&bg_color=0d1117&title_color=c084fc&icon_color=38bdf8&text_color=e2e8f0&hide_border=true" alt="Mohamed's GitHub Stats" style="max-width: 100%;" />
+    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
+      <h4>AI & Backend Engines</h4>
+      <p>
+        <img src="https://cdn.simpleicons.org/python/3776AB" height="16" alt="Python" /> Python<br>
+        <img src="https://cdn.simpleicons.org/fastapi/009688" height="16" alt="FastAPI" /> FastAPI<br>
+        <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="16" alt="Node.js" /> Node.js<br>
+        <img src="https://cdn.simpleicons.org/express/ffffff" height="16" alt="Express" /> Express<br>
+        <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="16" alt="Laravel" /> Laravel<br>
+        <img src="https://cdn.simpleicons.org/typescript/3178C6" height="16" alt="TypeScript" /> TypeScript
+      </p>
     </td>
-    <td width="50%" align="center" style="border: none; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedosamaai&layout=compact&bg_color=0d1117&title_color=c084fc&icon_color=38bdf8&text_color=e2e8f0&hide_border=true" alt="Mohamed's Top Languages" style="max-width: 100%;" />
+    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
+      <h4>Frontend & 3D WebGL</h4>
+      <p>
+        <img src="https://cdn.simpleicons.org/react/61DAFB" height="16" alt="React" /> React<br>
+        <img src="https://cdn.simpleicons.org/nextdotjs/ffffff" height="16" alt="Next.js" /> Next.js<br>
+        <img src="https://cdn.simpleicons.org/threedotjs/ffffff" height="16" alt="Three.js" /> Three.js<br>
+        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="16" alt="Tailwind CSS" /> Tailwind CSS<br>
+        <img src="https://cdn.simpleicons.org/kotlin/7F52FF" height="16" alt="Kotlin" /> Kotlin
+      </p>
     </td>
-  </tr>
-  <tr style="border: none;">
-    <td colspan="2" align="center" style="border: none; padding: 10px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamedosamaai&theme=tokyonight&background=0d1117&ring=c084fc&fire=38bdf8&sideNums=e2e8f0&sideLabels=94a3b8&hide_border=true" alt="Mohamed's GitHub Streak" style="max-width: 100%;" />
+    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
+      <h4>Infrastructure & Database</h4>
+      <p>
+        <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="16" alt="PostgreSQL" /> PostgreSQL<br>
+        <img src="https://cdn.simpleicons.org/redis/DC382D" height="16" alt="Redis" /> Redis<br>
+        <img src="https://cdn.simpleicons.org/docker/2496ED" height="16" alt="Docker" /> Docker<br>
+        <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="16" alt="GCP" /> GCP<br>
+        <img src="https://cdn.simpleicons.org/caddy/00A2C9" height="16" alt="Caddy" /> Caddy<br>
+        <img src="https://cdn.simpleicons.org/githubactions/2088FF" height="16" alt="GitHub Actions" /> GitHub Actions
+      </p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Stack & Systems Toolbox
-
-<table align="center" width="100%" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
-      <h4>🧠 AI & Backend Engines</h4>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    </td>
-    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
-      <h4>🎨 Frontend & 3D WebGL</h4>
-      <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
-    </td>
-    <td style="border: none; padding: 10px; vertical-align: top;" width="33%">
-      <h4>☁️ Infrastructure & Database</h4>
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/Redis-CC0000?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-      <img src="https://img.shields.io/badge/Caddy-00A2C9?style=flat-square&logo=caddy&logoColor=white" alt="Caddy" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-    </td>
-  </tr>
-</table>
-
----
-
-## 📐 C4 System Architecture Diagram
+## C4 System Architecture Diagram
 
 The diagram below illustrates the high-level boundary between client interfaces, edge proxies, microservice runtimes, and persistence layers across the ecosystem:
 
@@ -167,10 +148,10 @@ graph TB
 
 ---
 
-## 📂 Core Specialization Layers
+## Core Specialization Layers
 
 <details>
-  <summary>🤖 <b>1. AI Infrastructure & Security Layer</b> (Click to Expand)</summary>
+  <summary><b>AI Infrastructure & Security Layer</b> (Click to Expand)</summary>
   <br>
   
   | Platform / Repository | Tech Stack | Architectural Function & Scope | Status |
@@ -182,7 +163,7 @@ graph TB
 </details>
 
 <details>
-  <summary>👁️ <b>2. Computer Vision Pipelines & AI Layer</b> (Click to Expand)</summary>
+  <summary><b>Computer Vision Pipelines & AI Layer</b> (Click to Expand)</summary>
   <br>
   
   | Platform / Repository | Tech Stack | Architectural Function & Scope | Status |
@@ -194,7 +175,7 @@ graph TB
 </details>
 
 <details>
-  <summary>🌐 <b>3. 3D WebGL Web Apps Layer</b> (Click to Expand)</summary>
+  <summary><b>3D WebGL Web Apps Layer</b> (Click to Expand)</summary>
   <br>
   
   | Platform / Repository | Tech Stack | Architectural Function & Scope | Status |
@@ -206,7 +187,7 @@ graph TB
 </details>
 
 <details>
-  <summary>⚡ <b>4. Real-Time Systems & Queues Layer</b> (Click to Expand)</summary>
+  <summary><b>Real-Time Systems & Queues Layer</b> (Click to Expand)</summary>
   <br>
   
   | Platform / Repository | Tech Stack | Architectural Function & Scope | Status |
@@ -220,10 +201,10 @@ graph TB
 
 ---
 
-## 🏛️ Ecosystem Architectural Matrix (15 Audited Repositories)
+## Ecosystem Architectural Matrix (15 Audited Repositories)
 
 <details>
-  <summary>🔍 <b>View Architectural Repository Matrix</b> (Click to Expand)</summary>
+  <summary><b>View Architectural Repository Matrix</b> (Click to Expand)</summary>
   <br>
   
   | # | Repository Name | Core Tech Stack | Architectural Function & Scope |
@@ -248,7 +229,7 @@ graph TB
 
 ---
 
-## 📚 Ecosystem Documentation & Wiki
+## Ecosystem Documentation & Wiki
 
 Explore detailed architectural specifications hosted on the official GitHub Wiki:
 
@@ -261,7 +242,7 @@ Explore detailed architectural specifications hosted on the official GitHub Wiki
 
 ---
 
-## 🛠️ Verification & Build Commands
+## Verification & Build Commands
 
 ```bash
 # Verify TypeScript strict compilation across exports
@@ -274,18 +255,12 @@ powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1
 ---
 
 <div align="center">
-  <h3>📬 Let's Connect & Architect Together</h3>
+  <h3>Let's Connect</h3>
   
-  <a href="https://mohamedosama.me">
-    <img src="https://img.shields.io/badge/Portfolio-mohamedosama.me-C084FC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/mohamedosamaai">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/mohamedosamaai">
-    <img src="https://img.shields.io/badge/Twitter-mohamedosamaai-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="mailto:mohamed@bagbacktech.com">
-    <img src="https://img.shields.io/badge/Email-mohamed%40bagbacktech.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <p>
+    <a href="https://mohamedosama.me"><img src="https://cdn.simpleicons.org/googlechrome/C084FC" height="20" alt="Portfolio" /> Portfolio</a> &nbsp;|&nbsp;
+    <a href="https://linkedin.com/in/mohamedosamaai"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="20" alt="LinkedIn" /> LinkedIn</a> &nbsp;|&nbsp;
+    <a href="https://twitter.com/mohamedosamaai"><img src="https://cdn.simpleicons.org/twitter/1DA1F2" height="20" alt="Twitter" /> Twitter</a> &nbsp;|&nbsp;
+    <a href="mailto:mohamed@bagbacktech.com"><img src="https://cdn.simpleicons.org/gmail/D14836" height="20" alt="Email" /> Email</a>
+  </p>
 </div>

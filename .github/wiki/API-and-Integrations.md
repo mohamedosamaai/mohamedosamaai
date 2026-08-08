@@ -1,15 +1,15 @@
-# 🔌 API & Integrations Specification
+# 🔌 My API & OpenAPI Specifications
 
-This specification documents core RESTful API endpoints, request deduplication architecture, and Server-Sent Events (SSE) stream contracts across the ecosystem.
+I design my core RESTful API endpoints, request deduplication architecture, and Server-Sent Events (SSE) stream contracts to adhere to strict OpenAPI 3.1 specifications.
 
 ---
 
-## 🌐 Standard RESTful API Endpoints
+## 🌐 My Standard RESTful API Endpoints
 
 ### 1. Job Creation & Media Analysis
 
 #### `POST /api/v1/jobs/analyze`
-Submits a target URL or media asset payload for format analysis and processing.
+Submits a target URL or media asset payload to my cluster for format analysis and processing.
 
 - **Headers**:
   ```http
@@ -42,17 +42,17 @@ Submits a target URL or media asset payload for format analysis and processing.
 
 ---
 
-### 2. Request Deduplication Logic
+### 2. My Request Deduplication Logic
 
-To prevent redundant processing of identical concurrent HTTP requests:
-1. The API Server generates an MD5/SHA256 hash of the normalized request body.
+To prevent redundant processing of identical concurrent HTTP requests in my microservices:
+1. My API Gateway generates an MD5/SHA256 hash of the normalized request body.
 2. The server attempts an atomic `SETNX` key operation in Redis:
    `dedup:req:<hash>` with a 30-second TTL.
-3. If `SETNX` returns `0`, the request is currently in-flight; the API Server returns the existing `jobId` immediately without enqueueing a duplicate job.
+3. If `SETNX` returns `0`, the request is currently in-flight; my API Server returns the existing `jobId` immediately without enqueueing a duplicate job.
 
 ---
 
-### 3. Server-Sent Events (SSE) Streaming Endpoint
+### 3. My Server-Sent Events (SSE) Streaming Endpoint
 
 #### `GET /api/v1/jobs/:jobId/stream`
 Establishes a persistent uni-directional event stream to push real-time status updates to the client.
@@ -96,7 +96,7 @@ Establishes a persistent uni-directional event stream to push real-time status u
 
 ---
 
-## 🛡️ Error Code Matrix
+## 🛡️ My Error Code Matrix
 
 | Error Code | HTTP Status | Description | Action Required |
 | :--- | :--- | :--- | :--- |

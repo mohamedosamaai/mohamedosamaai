@@ -11,6 +11,6 @@
     "showcase:generate": "powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^7.0.2"
   }
 }

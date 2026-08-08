@@ -57,10 +57,10 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 ---
 
-## 🏛️ Ecosystem Architecture by Specialization Layer
+## Ecosystem Architecture by Specialization Layer
 
-<details open>
-<summary><b>1. AI Infrastructure & Security Layer (AI Infrastructure & Security)</b></summary>
+<details>
+<summary><b>1. AI Infrastructure & Security Layer</b></summary>
 
 <br/>
 
@@ -74,8 +74,8 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 <br/>
 
-<details open>
-<summary><b>2. Computer Vision Pipelines & AI Layer (Computer Vision Pipelines & AI)</b></summary>
+<details>
+<summary><b>2. Computer Vision Pipelines & AI Layer</b></summary>
 
 <br/>
 
@@ -89,8 +89,8 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 <br/>
 
-<details open>
-<summary><b>3. 3D WebGL Web Apps Layer (3D WebGL Web Apps)</b></summary>
+<details>
+<summary><b>3. 3D WebGL Web Apps Layer</b></summary>
 
 <br/>
 
@@ -104,8 +104,8 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 <br/>
 
-<details open>
-<summary><b>4. Real-Time Systems & Queues Layer (Real-Time Systems & Queues)</b></summary>
+<details>
+<summary><b>4. Real-Time Systems & Queues Layer</b></summary>
 
 <br/>
 
@@ -124,7 +124,7 @@ I design scalable, resilient software infrastructures — bridging client-side 3
 
 <div align="center">
 
-[![Mohamed Osama 3D Contribution Graph](https://github-readme-3d-contrib.vercel.app/s?username=mohamedosamaai&theme=dark)](https://github.com/mohamedosamaai)
+<img src="https://github-readme-3d-contrib.vercel.app/s?username=mohamedosamaai&theme=dark" alt="Mohamed Osama 3D Contribution Graph" width="100%" />
 
 </div>
 

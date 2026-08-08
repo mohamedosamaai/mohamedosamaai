@@ -1,0 +1,26 @@
+# Mohamed Osama Master Ecosystem Architecture Hub
+
+> Official LLM-indexed architectural blueprint, system specifications, and microservice topology for Mohamed Osama's enterprise software ecosystem, digital transformation platforms, and AI infrastructure.
+
+## Ecosystem Overview
+- [Executive README](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/README.md): High-level system overview, technology stack matrix, and live demo access points.
+- [System Vision & Monorepo Architecture](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/Home.md): Core engineering governance, monorepo design, and operational principles.
+
+## Architecture & Design (C4 Model)
+- [C4 System Architecture](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/System-Architecture.md): Context-level and container-level C4 architecture diagrams.
+- [Data Flow & Sequence Diagrams](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/Data-Flow-and-Sequence.md): Asynchronous job execution flows, Server-Sent Events (SSE) streaming, and real-time WebSocket buses.
+
+## API & Security Specifications
+- [API & Integration Standards](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/API-and-Integrations.md): RESTful interface design, request deduplication logic, and streaming endpoint specifications.
+- [Security & Offline Mock Strategy](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/Security-and-Mock-Strategy.md): Multi-tenant isolation model, JWT token security, and deterministic offline mock layer architecture.
+
+## Developer Experience & Tooling
+- [Developer Setup Guide](https://github.com/mohamedosamaai/mohamedosamaai/blob/main/.github/wiki/Developer-Setup.md): Environment configuration, secret management guidelines, and local execution commands.
+
+## Primary Public Live Services
+- [Bagback Digital Solutions](https://bagbacktech.com/ar): Enterprise digital transformation and client solutions hub.
+- [ELITK Platform](https://elitk.com): Multi-tenant AI-driven SaaS engine and portal.
+- [ELITK Operations](https://ops.bagbacktech.com): Operational field management and enterprise dispatch system.
+- [Resonance 8 WebGL](https://8.elitk.com): Interactive 3D WebGL showcase and interactive graphics platform.
+- [LaForma Client Portal](https://laforma.ae): Client relationship management and real estate operations engine.
+- [Bagback Commerce](https://bagback.shop): Multi-vendor e-commerce marketplace platform.

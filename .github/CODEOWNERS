@@ -1,0 +1,8 @@
+# Global Codeowners
+* @mohamedosamaai
+
+# Critical System Architecture & Governance
+/.github/ @mohamedosamaai
+/.github/workflows/ @mohamedosamaai
+/docs/ @mohamedosamaai
+/tools/ @mohamedosamaai

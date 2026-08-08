@@ -1,0 +1,15 @@
+# Robots.txt for Mohamed Osama Master Ecosystem Repository
+User-agent: *
+Allow: /
+
+# LLM Crawler Access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://raw.githubusercontent.com/mohamedosamaai/mohamedosamaai/main/sitemap.xml

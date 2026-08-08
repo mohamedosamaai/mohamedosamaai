@@ -1,20 +1,20 @@
-# 🔄 My Data Flow and Sequence Diagrams
+# 🔄 Data Flow and Sequence Diagrams
 
-I design my inter-service communication sequences around asynchronous job execution, real-time Server-Sent Events (SSE) streaming, and high-performance WebSocket event buses.
+Inter-service communication sequences are designed around asynchronous job execution, real-time Server-Sent Events (SSE) streaming, and high-performance WebSocket event buses.
 
 ---
 
-## 1. My Asynchronous Job Execution Sequence
+## 1. Asynchronous Job Execution Sequence
 
 ```mermaid
 sequenceDiagram
     autonumber
     actor Client as Client App (PWA / Mobile)
-    participant Gateway as My API Gateway / Router
-    participant API as My ELITK API Server
-    participant Redis as My Redis Job Queue & Cache
-    participant Worker as My Background Task Worker
-    participant DB as My PostgreSQL Database
+    participant Gateway as API Gateway / Router
+    participant API as ELITK API Server
+    participant Redis as Redis Job Queue & Cache
+    participant Worker as Background Task Worker
+    participant DB as PostgreSQL Database
 
     Client->>Gateway: POST /api/v1/jobs/analyze (URL Payload)
     Gateway->>API: Validate JWT & Deduplicate Request
@@ -38,15 +38,15 @@ sequenceDiagram
 
 ---
 
-## 2. My Real-Time Server-Sent Events (SSE) Streaming Sequence
+## 2. Real-Time Server-Sent Events (SSE) Streaming Sequence
 
 ```mermaid
 sequenceDiagram
     autonumber
     actor Client as Browser Client (React PWA)
-    participant API as My ELITK API Server (SSE Handler)
-    participant Redis as My Redis Pub/Sub Bus
-    participant Worker as My Background Worker
+    participant API as ELITK API Server (SSE Handler)
+    participant Redis as Redis Pub/Sub Bus
+    participant Worker as Background Worker
 
     Client->>API: GET /api/v1/jobs/:jobId/stream (Accept: text/event-stream)
     API->>API: Set Headers: Content-Type text/event-stream, Connection keep-alive
@@ -71,15 +71,15 @@ sequenceDiagram
 
 ---
 
-## 3. My WebSocket Event Bus Communication
+## 3. WebSocket Event Bus Communication
 
 ```mermaid
 sequenceDiagram
     autonumber
     actor Client as Desktop / Mobile Client
-    participant WSS as My WebSocket Server
-    participant Auth as My Auth & Token Verifier
-    participant Bus as My Internal Event Bus
+    participant WSS as WebSocket Server
+    participant Auth as Auth & Token Verifier
+    participant Bus as Internal Event Bus
 
     Client->>WSS: WSS Connect (wss://ops.bagbacktech.com/ws?token=JWT)
     WSS->>Auth: Verify JWT & Tenant Permissions
@@ -94,7 +94,7 @@ sequenceDiagram
 
 ---
 
-## 🔑 My Key Engineering Patterns
+## 🔑 Key Engineering Patterns
 
-- **Connection Cleanup**: My SSE and WebSocket handlers implement strict heartbeat timeouts and client disconnect listeners to prevent socket memory leaks.
-- **Request Deduplication**: In-flight HTTP POST analyze requests are keyed in Redis by SHA-256 payload hashes (`dedup:sha256`), preventing redundant worker processing in my cluster.
+- **Connection Cleanup**: SSE and WebSocket handlers implement strict heartbeat timeouts and client disconnect listeners to prevent socket memory leaks.
+- **Request Deduplication**: In-flight HTTP POST analyze requests are keyed in Redis by SHA-256 payload hashes (`dedup:sha256`), preventing redundant worker processing in the cluster.

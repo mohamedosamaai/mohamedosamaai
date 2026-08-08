@@ -1,10 +1,11 @@
 <div align="center">
 
-# 🏛️ Master Systems Architecture & Engineering Portfolio
-### High-Concurrency Microservices, Multi-Tenant SaaS Engines & Real-Time Operations Systems
+# 🏛️ Systems Architecture & Engineering Portfolio
+### High-Concurrency Microservices, Multi-Tenant SaaS Engines & Real-Time Field Systems
 
-**Mohamed Osama** — Founder, Systems Architect & Lead Engineer @ [Bagback Digital Solutions](https://bagbacktech.com/ar)
+**Mohamed Osama** — Founder & Lead Systems Architect @ [Bagback Digital Solutions](https://bagbacktech.com/ar)
 
+[![Project Board](https://img.shields.io/badge/PROJECT_BOARD-ACTIVE_ROADMAP-purple?style=for-the-badge&logo=github)](https://github.com/users/mohamedosamaai/projects/12)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-PASSING-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/mohamedosamaai/mohamedosamaai/actions)
 [![Security Scan](https://img.shields.io/badge/SECURITY-CODEQL-blue?style=for-the-badge&logo=github)](https://github.com/mohamedosamaai/mohamedosamaai/security/code-scanning)
 [![TypeScript](https://img.shields.io/badge/TYPESCRIPT-STRICT-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
@@ -13,7 +14,6 @@
 [![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-LATEST-blue?style=for-the-badge&logo=postgresql)](https://www.postgresql.org)
 [![Drizzle ORM](https://img.shields.io/badge/DRIZZLE%20ORM-ACTIVE-orange?style=for-the-badge&logo=drizzle)](https://orm.drizzle.team)
 [![Docker](https://img.shields.io/badge/DOCKER-READY-blue?style=for-the-badge&logo=docker)](https://www.docker.com)
-[![Node.js](https://img.shields.io/badge/NODE.JS-LTS-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
 
 ---
 
@@ -21,58 +21,69 @@
 
 ## 👤 Executive Overview
 
-I am Mohamed Osama, Founder & Lead Systems Architect at Bagback Digital Solutions. This repository serves as the master architectural reference and technical blueprint for my software portfolio, representing 17 production platforms, microservice engines, and client enterprise applications.
+I am Mohamed Osama, Founder & Lead Systems Architect at Bagback Digital Solutions. This repository serves as the primary technical blueprint and architectural hub for 17 production platforms, microservice engines, and enterprise solutions built across my engineering practice.
 
-I specialize in engineering high-performance, fault-tolerant software systems that scale from interactive 3D WebGL graphics to zero-downtime microservices, event-driven web socket dispatchers, and multi-tenant database infrastructures.
+I design scalable, resilient software infrastructures — bridging client-side 3D WebGL rendering and real-time computer vision with robust multi-tenant backends, event-driven web sockets, and zero-downtime microservices.
 
 ---
 
-## 🚀 Live Production Systems & My Platforms
+## 🌐 Production Platforms & Live Systems
 
-| Platform / Product | Live Production URL | Core Capabilities & My Engineering Architecture |
+| Platform / System | Live Production URL | Technical Architecture & Capabilities |
 | :--- | :--- | :--- |
-| **Bagback Digital Solutions** | [bagbacktech.com/ar](https://bagbacktech.com/ar) | My corporate digital transformation hub, SSG/ISR caching & i18n locale engine |
-| **ELITK Enterprise SaaS** | [elitk.com](https://elitk.com) | My multi-tenant SaaS workspace, document analytics & tenant management portal |
-| **ELITK Operations Engine** | [ops.bagbacktech.com](https://ops.bagbacktech.com) | My real-time field operations dispatch, automated work order queue & telemetry tracking |
-| **Resonance 8 WebGL Hub** | [8.elitk.com](https://8.elitk.com) | My high-performance 3D WebGL interactive renderer & GPGPU shader suite |
-| **LaForma Enterprise Real Estate** | [laforma.ae](https://laforma.ae) | My real estate broker platform, property catalog & high-speed lead intake engine |
-| **Bagback Commerce Hub** | [bagback.shop](https://bagback.shop) | My multi-vendor e-commerce marketplace & automated payment checkout engine |
+| **Bagback Digital Solutions** | [bagbacktech.com/ar](https://bagbacktech.com/ar) | Flagship agency engine, Genkit AI integration (`@genkit-ai/vertexai`), Dialogflow CX, SSG/ISR locale caching |
+| **ELITK Enterprise SaaS** | [elitk.com](https://elitk.com) | Multi-tenant workspace engine, document analytics, React 19, AWS S3 storage SDK, DND Kit workspace UI |
+| **ELITK Operations Engine** | [ops.bagbacktech.com](https://ops.bagbacktech.com) | Real-time field dispatch, Firebase Admin & Cloud Tasks queues, automated work order telemetry tracking |
+| **Resonance 8 WebGL Hub** | [8.elitk.com](https://8.elitk.com) | High-performance 3D graphics visualizer using React Three Fiber (`@react-three/fiber`), MediaPipe FaceMesh & GLSL Shaders |
+| **LaForma Enterprise Real Estate** | [laforma.ae](https://laforma.ae) | Brokerage operations engine, real estate development catalog, Radix UI components & lead intake webhooks |
+| **Bagback Commerce Hub** | [bagback.shop](https://bagback.shop) | Multi-vendor e-commerce checkout engine, Stripe API integration & automated inventory synchronization |
 
 ---
 
-## 🏛️ My 3-Tier Enterprise Architecture
+## 🏛️ 3-Tier Enterprise System Architecture
 
-I organize my software systems across a 3-tier decoupled architecture:
+The microservice portfolio is structured across a 3-tier decoupled system architecture:
 
-| Architecture Layer | Core Focus | My Featured Production Modules |
-| :--- | :--- | :--- |
-| **Tier 3: Enterprise & Client Solutions** | End-user platforms & commerce systems | `bagback-commerce-core`, `laforma-client-web`, `laforma-ops-app`, `vouno-broker-platform`, `bagback-marketing-engine` |
-| **Tier 2: Developer Infrastructure Layer** | Field dispatch, mail queues & CI/CD | `elitk-ops-platform`, `ai-prompts-library`, `bagback-mail-system`, `bagback-ai-gateway`, `bagback-infra-docker`, `bagback-ci-actions` |
-| **Tier 1: Core Platforms Layer** | SaaS engines, API gateways, DB & WebGL | `bagbacktech-core`, `elitk-saas-web`, `elitk-api-server`, `elitk-db-schema`, `vuno-ai-foundation`, `resonance-8-webgl` |
+```
+                  ┌─────────────────────────────────────────────────────────┐
+                  │          TIER 3: ENTERPRISE & CLIENT SOLUTIONS          │
+                  │   Commerce Core • LaForma Web & Ops • Vuno Broker Hub   │
+                  └────────────────────────────┬────────────────────────────┘
+                                               │
+                                               ▼
+                  ┌─────────────────────────────────────────────────────────┐
+                  │         TIER 2: DEVELOPER INFRASTRUCTURE LAYER          │
+                  │  Ops Platform • Webmail Engine • VPS Proxy • Bot Array │
+                  └────────────────────────────┬────────────────────────────┘
+                                               │
+                                               ▼
+                  ┌─────────────────────────────────────────────────────────┐
+                  │               TIER 1: CORE PLATFORMS LAYER              │
+                  │  Bagback Core • ELITK SaaS • API Server • DB • WebGL    │
+                  └─────────────────────────────────────────────────────────┘
+```
 
----
+### Complete 17-Module System Matrix
 
-### My Complete 17-Module System Matrix
-
-| Layer / Tier | Module Name | Primary Tech Stack | My Architectural Responsibility |
+| Layer / Tier | Module | Core Tech Stack | Technical Scope & Responsibility |
 | :--- | :--- | :--- | :--- |
-| **Tier 1: Core** | `bagbacktech-core` | Next.js 15, TypeScript, TailwindCSS | My flagship corporate Web engine, SSG/ISR caching & i18n locale routing |
-| **Tier 1: Core** | `elitk-saas-web` | React 19, Vite, TailwindCSS, Zustand | My multi-tenant customer dashboard, UI workspace & real-time analytics |
-| **Tier 1: Core** | `elitk-api-server` | Express.js, TypeScript, SSE, WebSockets | My central API Gateway, async job dispatch, rate limiting & request deduplication |
-| **Tier 1: Core** | `elitk-db-schema` | Drizzle ORM, PostgreSQL, Redis | My multi-tenant schema migrations, index optimization & caching strategy |
-| **Tier 1: Core** | `vuno-ai-foundation` | Python, Vertex AI SDK, Vector DB | My intelligence engine, semantic document retrieval & contextual search |
-| **Tier 1: Core** | `resonance-8-webgl` | Three.js, WebGL2, GLSL Shaders, React | My 3D graphics rendering engine, particle systems & GPGPU visualizer |
-| **Tier 2: Infra** | `elitk-ops-platform` | Next.js 15, Firebase Admin, Cloud Tasks | My operational dispatch system, task queues & telemetry tracking engine |
-| **Tier 2: Infra** | `ai-prompts-library` | TypeScript, Pydantic, JSON Schema | My versioned prompt repository, system instruction registry & guardrails |
-| **Tier 2: Infra** | `bagback-mail-system` | Next.js 15, Nodemailer, SMTP Worker | My enterprise webmail client, transactional email queues & template renderer |
-| **Tier 2: Infra** | `bagback-ai-gateway` | Node.js, Express, REST SDK | My API abstraction gateway, provider failover fallback & token counter |
-| **Tier 2: Infra** | `bagback-infra-docker` | Docker, Compose, Nginx, Certbot | My containerized reverse proxy setup, SSL auto-renewal & container stack |
-| **Tier 2: Infra** | `bagback-ci-actions` | GitHub Actions, Shell, CodeQL | My shared CI/CD reusable workflows, SAST security templates & release scripts |
-| **Tier 3: Solutions** | `bagback-commerce-core` | Next.js 15, Stripe API, TailwindCSS | My multi-vendor commerce checkout engine, cart state & inventory sync |
-| **Tier 3: Solutions** | `laforma-client-web` | React 19, Vite, TailwindCSS | My client portal for real estate developments & interactive unit catalog |
-| **Tier 3: Solutions** | `laforma-ops-app` | Kotlin, Android SDK, Firebase | My mobile field application for property inspectors & sales agents |
-| **Tier 3: Solutions** | `vouno-broker-platform` | Next.js 15, PostgreSQL, Drizzle ORM | My brokerage analytics, commission calculator & deal workflow engine |
-| **Tier 3: Solutions** | `bagback-marketing-engine` | HTML5, Vanilla JS, CSS3 | My high-converting landing page engine, lead intake webhooks & CRM sync |
+| **Tier 1: Core** | `bagbacktech-core` | Next.js 15, Genkit AI, TailwindCSS | Corporate web engine, Genkit AI integration & i18n locale routing |
+| **Tier 1: Core** | `elitk-saas-web` | React 19, Vite, AWS S3 SDK, Zustand | Multi-tenant customer dashboard, UI workspace & real-time analytics |
+| **Tier 1: Core** | `elitk-api-server` | Express.js, TypeScript, SSE, WebSockets | Central API Gateway, async job dispatch & request deduplication |
+| **Tier 1: Core** | `elitk-db-schema` | Drizzle ORM, PostgreSQL, Redis | Multi-tenant schema migrations, index optimization & caching strategy |
+| **Tier 1: Core** | `vuno-ai-foundation` | Python, Vertex AI SDK, Vector DB | Semantic document intelligence engine, vector search & contextual retrieval |
+| **Tier 1: Core** | `resonance-8-webgl` | Three.js, React Three Fiber, MediaPipe | 3D graphics rendering engine, FaceMesh tracking & GPGPU visualizer |
+| **Tier 2: Infra** | `elitk-ops-platform` | Next.js 15, Firebase Admin, Cloud Tasks | Operational dispatch system, task queues & telemetry tracking engine |
+| **Tier 2: Infra** | `bagback-webmail` | Next.js 15, IMAPFlow, Mailparser, Nodemailer | Enterprise webmail engine, async IMAP streaming & transactional queues |
+| **Tier 2: Infra** | `bagback-vps-server` | OVH VPS, Docker Compose, Caddy 2, WireGuard | Production infrastructure server, Caddy 2 reverse proxy & WireGuard VPN |
+| **Tier 2: Infra** | `bagback-telegram-bot` | Python 3.12, Gemini 2.5 Flash, Docker | High-speed automated Telegram operations bot array & webhook worker |
+| **Tier 2: Infra** | `ai-prompts-library` | TypeScript, Pydantic, JSON Schema | Versioned prompt repository, system instruction registry & guardrails |
+| **Tier 2: Infra** | `bagback-infra-docker` | Docker, Compose, Nginx, Certbot | Containerized reverse proxy setup, SSL auto-renewal & container stack |
+| **Tier 2: Infra** | `bagback-ci-actions` | GitHub Actions, Shell, CodeQL | Shared CI/CD reusable workflows, SAST security templates & release scripts |
+| **Tier 3: Solutions** | `bagback-commerce-core` | Next.js 15, Stripe API, TailwindCSS | Multi-vendor commerce checkout engine, cart state & inventory sync |
+| **Tier 3: Solutions** | `laforma-client-web` | React 19, Vite, Radix UI | Client portal for real estate developments & interactive unit catalog |
+| **Tier 3: Solutions** | `laforma-ops-app` | Kotlin, Android SDK, Firebase | Mobile field application for property inspectors & sales agents |
+| **Tier 3: Solutions** | `vouno-broker-platform` | Next.js 15, PostgreSQL, jsPDF | Brokerage analytics, automated PDF report generation & deal workflow |
 
 ---
 
@@ -85,11 +96,11 @@ graph TD
     OpUser["👷 Field Operations Agent"]
     Admin["👑 System Administrator (Mohamed Osama)"]
 
-    %% Gateway & Edge Layer
-    subgraph Edge ["🌐 Edge & Gateway Layer"]
+    %% Edge Layer
+    subgraph Edge ["🌐 Edge & Routing Layer"]
         CF["Cloudflare CDN & WAF"]
-        Proxy["Nginx Reverse Proxy / SSL"]
-        Gateway["Bagback Gateway / API Router"]
+        CaddyProxy["Caddy 2 / Nginx Reverse Proxy"]
+        Gateway["Bagback Gateway / Router"]
     end
 
     %% Application Layer
@@ -97,19 +108,19 @@ graph TD
         CoreWeb["Bagbacktech Core (Next.js 15)"]
         ElitkWeb["ELITK SaaS Portal (React 19)"]
         OpsApp["ELITK Ops Platform (Next.js 15)"]
-        Resonance8["Resonance 8 WebGL (Three.js)"]
+        Resonance8["Resonance 8 WebGL (R3F + MediaPipe)"]
     end
 
-    %% Microservices Layer
+    %% Services Layer
     subgraph Services ["⚡ Microservices Layer"]
         APIServer["ELITK API Server (Express + TS)"]
-        AIService["Vuno Foundation Service"]
-        MailService["Bagback Mail System"]
-        JobStore["Async Job Store (Redis Pub/Sub)"]
+        VunoService["Vuno Foundation Service"]
+        MailService["Bagback Webmail Service (IMAPFlow)"]
+        JobStore["Async Job Queue (Redis Pub/Sub)"]
     end
 
     %% Persistence Layer
-    subgraph Data ["💾 Data & Storage Layer"]
+    subgraph Data ["💾 Data & Persistence Layer"]
         PG[("PostgreSQL Multi-Tenant DB")]
         VDB[("Vector DB / Embeddings")]
         GCS[("Google Cloud Storage")]
@@ -119,47 +130,47 @@ graph TD
     Client --> CF
     OpUser --> CF
     Admin --> CF
-    CF --> Proxy
-    Proxy --> CoreWeb
-    Proxy --> ElitkWeb
-    Proxy --> OpsApp
-    Proxy --> Resonance8
+    CF --> CaddyProxy
+    CaddyProxy --> CoreWeb
+    CaddyProxy --> ElitkWeb
+    CaddyProxy --> OpsApp
+    CaddyProxy --> Resonance8
 
     %% Service Connections
     CoreWeb --> Gateway
     ElitkWeb --> Gateway
     OpsApp --> Gateway
     Gateway --> APIServer
-    APIServer --> AIService
+    APIServer --> VunoService
     APIServer --> MailService
     APIServer --> JobStore
 
     %% Data Connections
     APIServer --> PG
-    AIService --> VDB
-    AIService --> GCS
+    VunoService --> VDB
+    VunoService --> GCS
     APIServer --> GCS
 ```
 
 ---
 
-## 📚 Architecture Documentation Wiki
+## 📚 Architectural Wiki Documentation
 
-My detailed architectural specifications and developer guides are documented in my GitHub Wiki:
+Detailed technical documentation and developer guides are published in the GitHub Wiki:
 
-1. [📘 Home](.github/wiki/Home.md): My Philosophy, Monorepo Architecture & Governance.
-2. [📐 System Architecture](.github/wiki/System-Architecture.md): My C4 Context and Container Level Diagrams.
-3. [🔄 Data Flow & Sequence](.github/wiki/Data-Flow-and-Sequence.md): My Async Jobs, SSE Streams, and WebSocket Protocols.
-4. [🔒 Security & Multi-Tenancy](.github/wiki/Security-and-Multi-Tenancy.md): My Multi-Tenant Isolation Model, JWT Security & Offline Mocks.
-5. [🔌 API & Integrations](.github/wiki/API-and-Integrations.md): My RESTful Endpoints, Request Deduplication & OpenAPI Specifications.
-6. [💻 Developer Setup](.github/wiki/Developer-Setup.md): My Local Environment Playbook, Variables & Execution Commands.
+1. [📘 Home](.github/wiki/Home.md): System Philosophy, Monorepo Architecture & Governance.
+2. [📐 System Architecture](.github/wiki/System-Architecture.md): C4 Context and Container Level Diagrams.
+3. [🔄 Data Flow & Sequence](.github/wiki/Data-Flow-and-Sequence.md): Async Jobs, SSE Streams, and WebSocket Protocols.
+4. [🔒 Security & Multi-Tenancy](.github/wiki/Security-and-Multi-Tenancy.md): Multi-Tenant Isolation Model, JWT Security & Offline Mocks.
+5. [🔌 API & Integrations](.github/wiki/API-and-Integrations.md): RESTful Endpoints, Request Deduplication & OpenAPI Specifications.
+6. [💻 Developer Setup](.github/wiki/Developer-Setup.md): Local Environment Playbook, Variables & Execution Commands.
 
 ---
 
-## ⚙️ Quick Start & Developer Usage
+## ⚙️ Execution Commands & Local Usage
 
 ```bash
-# Clone my master ecosystem hub repository
+# Clone the repository
 git clone https://github.com/mohamedosamaai/mohamedosamaai.git
 cd mohamedosamaai
 
@@ -169,18 +180,18 @@ npm install
 # Run strict TypeScript type check
 npm run type-check
 
-# Execute my local showcase generator tool
+# Execute local showcase generator tool
 npm run showcase:generate
 ```
 
 ---
 
-## 🛡️ My Engineering Standards
+## 🛡️ Engineering Standards
 
-- **Strict Type Safety:** All my packages enforce TypeScript strict mode with zero implicit `any`.
-- **Clean Architecture:** I decouple domain logic from UI presentation and database persistence.
-- **Showcase Branch Hygiene:** I maintain clean remote branches (`main` and clean integrations only).
-- **Code Ownership:** I personally review and approve all pull requests (`@mohamedosamaai`).
+- **Strict Type Safety:** All packages enforce TypeScript strict mode with zero implicit `any`.
+- **Clean Architecture:** Domain logic is decoupled from UI presentation and database persistence.
+- **Showcase Branch Hygiene:** Clean remote branch structure (`main` and verified integrations only).
+- **Code Ownership:** Primary code review and architecture approvals managed by `@mohamedosamaai`.
 
 ---
 

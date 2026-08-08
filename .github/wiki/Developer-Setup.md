@@ -1,6 +1,6 @@
-# 💻 My Developer Setup & Workspace Playbook
+# 💻 Developer Setup & Workspace Playbook
 
-I prepared this playbook to detail local environment setup, prerequisites, configuration variables, and command execution for engineers working on my platforms.
+This playbook details local environment setup, prerequisites, configuration variables, and command execution for engineers working on the platforms.
 
 ---
 
@@ -48,25 +48,25 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ## 🚀 Execution Script Commands
 
-Execute the following commands from the root directory of my ecosystem hub:
+Execute the following commands from the root directory of the ecosystem hub:
 
 | Script Command | Command Line | Description |
 | :--- | :--- | :--- |
 | **Type Check** | `npm run type-check` | Runs `tsc --noEmit` to verify zero TypeScript errors. |
-| **Showcase Generator** | `npm run showcase:generate` | Executes my PowerShell showcase generator script. |
+| **Showcase Generator** | `npm run showcase:generate` | Executes the PowerShell showcase generator script. |
 | **Docker Compose Up** | `docker-compose up -d` | Starts local PostgreSQL and Redis container dependencies. |
 
 ---
 
 ## 🧪 Testing & Code Hygiene
 
-Before creating pull requests or pushing commits to my repositories:
+Before creating pull requests or pushing commits to repositories:
 
 ```bash
 # 1. Verify TypeScript strict compilation
 npm run type-check
 
-# 2. Execute my local showcase maintenance script
+# 2. Execute local showcase maintenance script
 powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1
 
 # 3. Check Git status for clean branch state

@@ -1,21 +1,9 @@
 /**
- * Master Ecosystem Architecture Specification
- * Architect: Mohamed Osama
+ * Master Ecosystem Architecture Hub & Type Specifications
+ * Mohamed Osama — Digital Transformation Architect & Founder @ Bagback Digital Solutions
  */
-export interface SystemArchitecture {
-  organization: string;
-  architect: string;
-  layers: string[];
-  status: 'production' | 'staging' | 'active';
-}
 
-export const masterEcosystem: SystemArchitecture = {
-  organization: 'mohamedosamaai',
-  architect: 'Mohamed Osama',
-  layers: [
-    'Core Platforms Layer',
-    'Developer Infrastructure Layer',
-    'Enterprise & Client Solutions Layer'
-  ],
-  status: 'active'
-};
+export * from './types/architecture.js';
+export * from './types/multi-tenancy.js';
+export * from './types/events.js';
+export * from './types/api.js';

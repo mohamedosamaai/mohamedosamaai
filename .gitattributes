@@ -1,0 +1,6 @@
+# GitHub Linguist Overrides
+# Exclude automation scripts from language statistics to accurately reflect TypeScript codebase
+tools/*.ps1 linguist-vendored
+tools/*.sh linguist-vendored
+docs/* linguist-documentation
+.github/wiki/* linguist-documentation

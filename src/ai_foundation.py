@@ -25,7 +25,7 @@ class VectorStoreClient:
         self.collection = collection
         self._connected = False
 
-    async def connect((self) -> None:
+    async def connect(self) -> None:
         logger.info(f"Connecting to vector index at {self.endpoint}/{self.collection}")
         await asyncio.sleep(0.05)
         self._connected = True

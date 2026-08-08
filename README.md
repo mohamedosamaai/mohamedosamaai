@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ Mohamed Osama
+# Mohamed Osama
 ### Founder & Lead Systems Architect @ [Bagback Digital Solutions](https://bagbacktech.com/ar)
 **AI Infrastructure • Multi-Tenant SaaS Engines • Real-Time Systems • 3D WebGL**
 
@@ -25,9 +25,9 @@
 
 ---
 
-### ⚡ Architectural Metrics & Infrastructure Overview
+### Architectural Metrics & Infrastructure Overview
 
-| 📦 Production Ecosystem | 🛡️ Multi-Tenant Isolation | 🌐 3D & Computer Vision | ⚡ Concurrency & Queue |
+| Production Ecosystem | Multi-Tenant Isolation | 3D & Computer Vision | Concurrency & Queue |
 | :---: | :---: | :---: | :---: |
 | **16 Audited Repositories** | **Schema & Row-Level Security** | **Three.js & MediaPipe AI** | **Redis Pub/Sub & SSE Stream** |
 
@@ -35,224 +35,98 @@
 
 </div>
 
-## 👤 Executive Engineering Overview
+## Executive Engineering Overview
 
-I am Mohamed Osama, Founder & Lead Systems Architect at Bagback Digital Solutions. This repository serves as the central architectural hub and technical blueprint for 16 production platforms, microservice engines, and digital transformation solutions engineered across my software practice.
+I am Mohamed Osama, Founder & Lead Systems Architect at Bagback Digital Solutions. This repository serves as the central architectural hub and technical blueprint for production platforms, microservice engines, and digital transformation solutions engineered across my software practice.
 
 I design scalable, resilient software infrastructures — bridging client-side 3D WebGL rendering and real-time computer vision with robust multi-tenant backends, event-driven web sockets, and zero-downtime microservices.
 
 ---
 
-## 🛠️ Technology Stack & Core Competencies
+## Technical Pipeline Grid (The Technical Pipeline)
 
 <div align="center">
 
-| Domain | Production Tooling & Frameworks |
-| :--- | :--- |
-| **Frontend & 3D** | ![Next.js](https://img.shields.io/badge/Next.js_15.5-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe_Vision-00979D?style=flat-square&logo=google&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Backend & AI** | ![Node.js](https://img.shields.io/badge/Node.js_20-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white) ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel_9-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin_Android-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
-| **Database & Queue** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB_10.11-003545?style=flat-square&logo=mariadb&logoColor=white) ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black) ![Redis](https://img.shields.io/badge/Redis_7.2-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **DevOps & Cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Caddy](https://img.shields.io/badge/Caddy_2-1F88C0?style=flat-square&logo=caddy&logoColor=white) ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white) |
+| Stage 1: AI & CV Inputs | Stage 2: Caching & Queues | Stage 3: 3D WebGL Rendering | Stage 4: Metrics & Status |
+| :--- | :--- | :--- | :--- |
+| **Gemini 2.5 Flash / Vertex AI**<br/>`@google/genai` Integration | **Redis 7.2 Pub/Sub**<br/>Async Task Queues | **Three.js & R3F**<br/>GPU Shader Uniforms | **Status**: Deployed & Active<br/>![CI/CD](https://img.shields.io/badge/CI%2FCD-PASSING-success?style=flat-square) |
+| **MediaPipe Vision Engine**<br/>468 Face Mesh Landmarks | **PostgreSQL 16 & Drizzle**<br/>Row-Level Isolation | **MediaPipe Camera Stream**<br/>60 FPS Canvas Pipeline | **Security**: Hardened<br/>![CodeQL](https://img.shields.io/badge/CodeQL-STRICT-blue?style=flat-square) |
+| **IMAPFlow & Mailparser**<br/>MIME Stream Processing | **Laravel 9 / predis**<br/>Transactional Webhooks | **Modern CSS3 & WebGL**<br/>Glassmorphism Shaders | **Type Safety**: Verified<br/>![TypeScript](https://img.shields.io/badge/TypeScript-STRICT-3178C6?style=flat-square) |
 
 </div>
 
 ---
 
-## 🌐 Live Production Platforms & Active Ecosystem
+## 🏛️ Ecosystem Architecture by Specialization Layer
+
+<details open>
+<summary><b>1. AI Infrastructure & Security Layer (AI Infrastructure & Security)</b></summary>
 
 <br/>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🌐 BagbackTech Agency</h3>
-      <p align="center"><b>Flagship Digital Agency & AI Platform</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Next.js 15.5, Genkit AI, Dialogflow CX, Firebase Admin</li>
-        <li><b>Capabilities</b>: Context-aware AI prompt grounding, dynamic SSR/ISR rendering, bilingual client acquisition.</li>
-      </ul>
-      <p align="center">
-        <a href="https://bagbacktech.com/ar"><b>🔗 Visit Live Platform (bagbacktech.com/ar) »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🏢 Elitk Multi-Tenant SaaS</h3>
-      <p align="center"><b>AI Operating System for SaaS, CRM & Outreach</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Express 5, React 18, Vite 7, PostgreSQL 16, Drizzle ORM</li>
-        <li><b>Capabilities</b>: Schema-level data isolation, automated subscription billing, analytical dashboards.</li>
-      </ul>
-      <p align="center">
-        <a href="https://elitk.com"><b>🔗 Visit Live Platform (elitk.com) »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📚 Elitk Library</h3>
-      <p align="center"><b>2,771 Curated AI Prompts & Developer Workbench</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: FastAPI (Python 3.12, Cloud Run), React (Firebase Hosting), Cloud SQL</li>
-        <li><b>Capabilities</b>: 2,771 prompt cards, MCP server profiles, developer skills, scale-to-zero GCP backend.</li>
-      </ul>
-      <p align="center">
-        <a href="https://library.elitk.com"><b>🔗 Visit Live Platform (library.elitk.com) »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📡 Elitk Ops / Control Tower</h3>
-      <p align="center"><b>Field Operations OS & Ground Agent Dispatch</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Next.js 15, React 19, Firebase, Google Maps, Serwist PWA, Kotlin Android</li>
-        <li><b>Capabilities</b>: Live agent GPS position tracking, automated task dispatch, offline mobile syncing.</li>
-      </ul>
-      <p align="center">
-        <a href="https://ops.bagbacktech.com"><b>🔗 Visit Live Platform (ops.bagbacktech.com) »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🛒 Bagback Shop</h3>
-      <p align="center"><b>Multi-Vendor E-Commerce Platform</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Laravel 9 (PHP 8.2), Vue 3, MariaDB, Redis, Stripe, MyFatoorah</li>
-        <li><b>Capabilities</b>: Multi-vendor checkout engine, asynchronous payment queues, real-time cart state.</li>
-      </ul>
-      <p align="center">
-        <a href="https://bagback.shop"><b>🔗 Visit Live Platform (bagback.shop) »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🏗️ La Forma Contracting</h3>
-      <p align="center"><b>Corporate Contracting & UAE Technical Services</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Next.js 14, React 18, TypeScript, TailwindCSS, Firebase Admin</li>
-        <li><b>Capabilities</b>: High-conversion project showcase, responsive layout, modern design tokens.</li>
-      </ul>
-      <p align="center">
-        <a href="https://laforma.ae"><b>🔗 Visit Live Platform (laforma.ae) »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🤖 OpenClaw & WriteClaw AI Bot</h3>
-      <p align="center"><b>AI Telegram Command Center & Article Writer</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Python 3.12, Gemini 2.5 Flash, python-telegram-bot, Docker, OVH VPS</li>
-        <li><b>Capabilities</b>: Daily article generator, knowledge base Q&A, automated Telegram digest.</li>
-      </ul>
-      <p align="center">
-        <a href="https://t.me/Bagback_bot"><b>🔗 Interact with Telegram Bot (@Bagback_bot) »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ Bagback Download Engine</h3>
-      <p align="center"><b>Unified Stream & Media Extractor Engine</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Vite, React 19, TypeScript 5.5, Express, yt-dlp, Redis Queue</li>
-        <li><b>Capabilities</b>: High-concurrency media format analysis, stream extraction, async format queues.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/mohamedosamaai/bagback-download-showcase"><b>🔗 View Monorepo Engine Spec »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎨 Resonance 8 WebGL Studio</h3>
-      <p align="center"><b>Interactive 3D Graphics & Vision Engine</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: Three.js, React Three Fiber, MediaPipe Vision, React 19</li>
-        <li><b>Capabilities</b>: 60 FPS GPU face mesh tracking, custom shaders, 3D interactive product rendering.</li>
-      </ul>
-      <p align="center">
-        <a href="https://8.elitk.com"><b>🔗 Visit Live Platform (8.elitk.com) »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🌐 El Zayd Domain Sales Engine</h3>
-      <p align="center"><b>Domain Sales & High-Conversion Landing Page</b></p>
-      <ul>
-        <li><b>Tech Stack</b>: HTML5, Modern CSS3, Vanilla JS, Cloudflare Pages, Dan.com</li>
-        <li><b>Capabilities</b>: Bilingual RTL/LTR layout, structured Schema.org JSON-LD, instant buy integration.</li>
-      </ul>
-      <p align="center">
-        <a href="https://elzayd.com"><b>🔗 Visit Live Platform (elzayd.com) »</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+| Platform / Repository | Tech Stack | Architectural Function & Verified Scope | Production Status |
+| :--- | :--- | :--- | :---: |
+| **VOUNO** *(Client Project)* | React 19, Next.js 16, TypeScript 5.8, `@google/genai` Gemini API, Firebase 11, TailwindCSS 4, jsPDF, Recharts | Enterprise trade finance & guarantee solutions platform. Automated structuring, server-side AI trade contract advisory, zero cash margin structuring, fee calculators, and PDF quote exports. | `LIVE PRODUCTION` |
+| **Elitk Library** | FastAPI (Python 3.12, Cloud Run), React (Firebase Hosting), Cloud SQL PostgreSQL, Google Secret Manager | Developer AI workspace hosting 2,771 curated prompt cards, MCP server profiles, developer skills, AI Workbench, and scale-to-zero GCP backend. | `LIVE PRODUCTION` |
+| **OpenClaw & WriteClaw** | Python 3.12, Gemini 2.5 Flash, `python-telegram-bot`, APScheduler, Docker, OVH VPS | AI Telegram command center (`@Bagback_bot`) and automated article generation factory with persistent memory and knowledge base ingestion. | `LIVE PRODUCTION` |
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>2. Computer Vision Pipelines & AI Layer (Computer Vision Pipelines & AI)</b></summary>
+
+<br/>
+
+| Platform / Repository | Tech Stack | Architectural Function & Verified Scope | Production Status |
+| :--- | :--- | :--- | :---: |
+| **Elitk** | Express 5, React 18, Vite 7, TypeScript 5.6, PostgreSQL 16, Drizzle ORM, Socket.io 4, Vertex AI | Multi-tenant AI business operating system for social media, ads, CRM, outreach, and growth analytics with schema-level tenant data isolation. | `LIVE PRODUCTION` |
+| **BagbackTech Agency** | Next.js 15.5, Genkit AI (`@genkit-ai/google-genai`), Dialogflow CX, Firebase Admin, TailwindCSS, Framer Motion | Flagship digital agency platform and AI client interaction engine. Features context-aware prompt grounding, dynamic SSR rendering, and bilingual acquisition. | `LIVE PRODUCTION` |
+| **Bagback Webmail** | Next.js 16, React 19, IMAPFlow, Mailparser, Nodemailer, Firebase Admin, TailwindCSS 4 | AI-powered unified webmail client and workspace hub. Async IMAP stream parsing, attachment processing, and transactional mail dispatch. | `LIVE PRODUCTION` |
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>3. 3D WebGL Web Apps Layer (3D WebGL Web Apps)</b></summary>
+
+<br/>
+
+| Platform / Repository | Tech Stack | Architectural Function & Verified Scope | Production Status |
+| :--- | :--- | :--- | :---: |
+| **Resonance 8 Studio** | Three.js, React Three Fiber (`@react-three/fiber`, `@react-three/drei`), MediaPipe Vision (`@mediapipe/tasks-vision`), React 19, Vite 8, Express | Interactive 3D graphics studio and real-time camera face mesh tracking engine. 60 FPS GPU facial landmark mapping and custom shaders. | `LIVE PRODUCTION` |
+| **El Zayd Domain Sales** | HTML5, Modern CSS3, Vanilla JS, Schema.org JSON-LD, Cloudflare Pages, Dan.com | Premium domain sales landing page (`elzayd.com`). Features bilingual RTL/LTR layout, structured product schema, and instant buy integration. | `LIVE PRODUCTION` |
+| **Mohamed Portfolio** | Next.js 16, React 19, TypeScript 5, Better-SQLite3, Next-MDX-Remote, TailwindCSS 4 | Personal developer portfolio (`mohamedosama.me`) and admin CMS dashboard with SQLite storage and Caddy 2 reverse proxy deployment. | `LIVE PRODUCTION` |
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>4. Real-Time Systems & Queues Layer (Real-Time Systems & Queues)</b></summary>
+
+<br/>
+
+| Platform / Repository | Tech Stack | Architectural Function & Verified Scope | Production Status |
+| :--- | :--- | :--- | :---: |
+| **Elitk Ops / Control Tower** | Next.js 15, React 19, Firebase, Google Maps, Serwist PWA, Zustand, Kotlin Android (`laforma-ops-app`) | Real-time field operations OS and ground agent dispatch hub (`ops.bagbacktech.com`). Features live GPS tracking, task assignment, and offline PWA sync. | `LIVE PRODUCTION` |
+| **Bagback Shop** | Laravel 9 (PHP 8.2), Vue 3, Bootstrap 5, MariaDB, Redis, Stripe, MyFatoorah, Twilio | Multi-vendor commerce platform (`bagback.shop`). Features multi-merchant storefronts, async webhook payment queues, and SMS notifications. | `LIVE PRODUCTION` |
+| **La Forma Contracting** *(Client Project)* | Next.js 14, React 18, TypeScript 5.9, TailwindCSS 3.4, Framer Motion, Firebase Admin, Radix UI | Corporate contracting platform (`laforma.ae`) and UAE technical services showcase with responsive layout and modern UI tokens. | `LIVE PRODUCTION` |
+| **Bagback Download** | Vite, React 19, TypeScript 5.5, Express, yt-dlp stream extraction, Redis | Unified stream and media format extraction monorepo engine. Handles async format analysis and media downloading. | `LIVE PRODUCTION` |
+
+</details>
 
 ---
 
-## 📐 C4 System Context Architecture
+## 3D Contribution Graph
 
-The diagram below illustrates the high-level boundary between clients, edge proxies, microservice runtimes, and persistence layers across the ecosystem:
+<div align="center">
 
-```mermaid
-graph TB
-    subgraph Clients ["📱 Client Layer"]
-        PWA["Next.js 15 / React 19 PWAs"]
-        Mobile["Android Ops App (Kotlin / Jetpack Compose)"]
-        WebGL["3D Canvas (Three.js / MediaPipe Vision)"]
-    end
+[![Mohamed Osama 3D Contribution Graph](https://github-readme-3d-contrib.vercel.app/s?username=mohamedosamaai&theme=dark)](https://github.com/mohamedosamaai)
 
-    subgraph Edge ["🌐 Edge & Routing Layer"]
-        Proxy["Caddy 2 Reverse Proxy / Auto ACME TLS"]
-        Gateway["Express API Gateway & JWT Validator"]
-    end
-
-    subgraph Microservices ["⚡ Microservices & Processing Layer"]
-        API["ELITK API Server (Express + SSE)"]
-        FastAPI["FastAPI Backend (Cloud Run + Python 3.12)"]
-        AI["OpenClaw Telegram Bot (Gemini 2.5 Flash)"]
-        Laravel["BAGBACK Commerce Backend (Laravel 9 + PHP 8.2)"]
-    end
-
-    subgraph Persistence ["💾 Persistence & Cache Layer"]
-        Postgres[("PostgreSQL 16 (Drizzle ORM)")]
-        Maria[("MariaDB 10.11 (Bagback Shop)")]
-        Redis[("Redis 7.2 (Pub/Sub Queues)")]
-    end
-
-    Clients --> Proxy
-    Proxy --> Gateway
-    Gateway --> API
-    Gateway --> FastAPI
-    Gateway --> Laravel
-    API --> Postgres
-    API --> Redis
-    FastAPI --> Postgres
-    Laravel --> Maria
-    Laravel --> Redis
-    AI --> Redis
-```
-
----
-
-## 🏛️ Ecosystem Architecture & System Specifications
-
-Below is the verified architecture matrix detailing all 16 audited production repositories and microservice modules:
-
-| # | Repository Name | Core Tech Stack | Architectural Function & Scope |
-| :-: | :--- | :--- | :--- |
-| **1** | `bagbacktech.com` | Next.js 15.5, Genkit AI, Dialogflow CX | Flagship agency Web PWA & AI client interaction engine. |
-| **2** | `elitk` | Express 5, React 18, Vite 7, PostgreSQL 16, Drizzle | Multi-tenant AI operating system & business management platform. |
-| **3** | `library.elitk.com` | FastAPI (Python 3.12), Cloud Run, React | 2,771 curated AI prompts, MCP server profiles & developer workbench. |
-| **4** | `ops` / `laforma-ops-app` | Next.js 15, React 19, Firebase, Kotlin Android | Operations control tower & real-time field agent dispatch engine. |
-| **5** | `BAGBACK` | Laravel 9 (PHP 8.2), Vue 3, MariaDB, Redis | Multi-vendor commerce platform with Stripe & MyFatoorah payment queues. |
-| **6** | `Laforma` | Next.js 14, React 18, TailwindCSS, Firebase Admin | Enterprise contracting platform & UAE technical services portal. |
-| **7** | `BAGBACK_BOT` | Python 3.12, Gemini 2.5 Flash, Telegram Bot API | AI Telegram command center (`@Bagback_bot`) & article generation bot. |
-| **8** | `bagback-download` | Vite, React 19, TypeScript 5.5, Express, yt-dlp | Unified stream & media format extraction monorepo. |
-| **9** | `VOUNO` | React 19, Vite 6, Express, Google GenAI, jsPDF | Multi-tenant AI ERP dashboard & PDF report generator. |
-| **10** | `elitk-8` | Three.js, React Three Fiber, MediaPipe Vision | Interactive 3D WebGL experience & real-time camera face mesh tracking. |
-| **11** | `elzayd-landing` | HTML5, Modern CSS3, Cloudflare Pages | Premium domain sales landing page & conversion funnel. |
-| **12** | `mohamed` | Next.js 16, React 19, Better-SQLite3 | Personal developer portfolio (`mohamedosama.me`) with admin CMS. |
-| **13** | `webmail` / `bagback-hub` | Next.js 16, React 19, IMAPFlow, Mailparser | Multi-tenant webmail client & async email processing hub. |
-| **14** | `bagback-server` | OVH VPS Extreme, Caddy 2, Docker, WireGuard | Production server infrastructure (`bagback-codex`) hosting all domains. |
-| **15** | `mohamedosamaai` | TypeScript 5.5, GitHub Actions CI/CD | Master ecosystem architecture hub & CI/CD quality gate. |
+</div>
 
 ---
 
@@ -260,12 +134,12 @@ Below is the verified architecture matrix detailing all 16 audited production re
 
 Explore detailed architectural specifications hosted on the official GitHub Wiki:
 
-- 🏠 [Architectural Philosophy & Governance](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Home)
-- 📐 [C4 System Architecture Diagrams](https://github.com/mohamedosamaai/mohamedosamaai/wiki/System-Architecture)
-- 🔄 [Async Job Sequences & SSE Data Flows](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Data-Flow-and-Sequence)
-- 🔒 [Multi-Tenant Isolation & Security Strategy](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Security-and-Multi-Tenancy)
-- 🔌 [OpenAPI Specifications & Endpoint Index](https://github.com/mohamedosamaai/mohamedosamaai/wiki/API-and-Integrations)
-- 💻 [Developer Setup & Environment Playbook](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Developer-Setup)
+- [Architectural Philosophy & Governance](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Home)
+- [C4 System Architecture Diagrams](https://github.com/mohamedosamaai/mohamedosamaai/wiki/System-Architecture)
+- [Async Job Sequences & SSE Data Flows](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Data-Flow-and-Sequence)
+- [Multi-Tenant Isolation & Security Strategy](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Security-and-Multi-Tenancy)
+- [OpenAPI Specifications & Endpoint Index](https://github.com/mohamedosamaai/mohamedosamaai/wiki/API-and-Integrations)
+- [Developer Setup & Environment Playbook](https://github.com/mohamedosamaai/mohamedosamaai/wiki/Developer-Setup)
 
 ---
 

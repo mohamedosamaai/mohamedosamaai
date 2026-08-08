@@ -2,8 +2,9 @@
 name: Feature Request
 about: Propose a new feature, platform capability, or service integration.
 title: 'feat(scope): brief description'
-labels: ['type: feature']
+labels: 'type: feature'
 assignees: mohamedosamaai
+
 ---
 
 ## Problem Statement

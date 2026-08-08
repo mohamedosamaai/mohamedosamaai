@@ -1,9 +1,11 @@
 ---
 name: Architecture & System Design Proposal
-about: Propose cross-cutting architectural changes, multi-tenant isolation adjustments, or database migrations.
+about: Propose cross-cutting architectural changes, multi-tenant isolation adjustments,
+  or database migrations.
 title: 'arch(scope): brief description'
-labels: ['type: refactor', 'layer: core']
+labels: 'layer: core, type: refactor'
 assignees: mohamedosamaai
+
 ---
 
 ## Executive Summary

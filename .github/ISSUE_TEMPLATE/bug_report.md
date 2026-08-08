@@ -2,8 +2,9 @@
 name: Bug Report
 about: Report an issue or bug in the ecosystem microservices or infrastructure.
 title: 'fix(scope): brief description'
-labels: ['type: bug']
+labels: 'type: bug'
 assignees: mohamedosamaai
+
 ---
 
 ## Description

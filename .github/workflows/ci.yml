@@ -55,6 +55,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -65,7 +67,12 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Run Build Diagnostics
+      - name: Run Build Diagnostics & Showcase Verification
         run: |
           echo "Executing Master Ecosystem Build Validation..."
-          node -e "console.log('Build verification complete. System status: PASSING');"
+          chmod +x ./tools/showcase-generator.sh
+          ./tools/showcase-generator.sh
+
+      - name: Verify Documentation Synchronization (Wiki vs Mirror)
+        run: |
+          git diff --exit-code docs/ || (echo "❌ Error: Documentation is out of sync! Please run 'npm run showcase:generate' locally and commit the synced docs/ directory." && exit 1)

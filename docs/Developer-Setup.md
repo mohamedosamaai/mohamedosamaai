@@ -52,8 +52,8 @@ Execute the following commands from the root directory of the ecosystem hub:
 
 | Script Command | Command Line | Description |
 | :--- | :--- | :--- |
-| **Type Check** | `npm run type-check` | Runs `tsc --noEmit` to verify zero TypeScript errors. |
-| **Showcase Generator** | `npm run showcase:generate` | Executes the PowerShell showcase generator script. |
+| **Type Check** | `npm run check-types` | Runs `tsc --noEmit` to verify zero TypeScript errors. |
+| **Build Packages** | `npm run build` | Compiles TypeScript declarations and outputs to `dist/`. |
 | **Docker Compose Up** | `docker-compose up -d` | Starts local PostgreSQL and Redis container dependencies. |
 
 ---
@@ -64,10 +64,10 @@ Before creating pull requests or pushing commits to repositories:
 
 ```bash
 # 1. Verify TypeScript strict compilation
-npm run type-check
+npm run check-types
 
-# 2. Execute local showcase maintenance script
-powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1
+# 2. Build packages and verify outputs
+npm run build
 
 # 3. Check Git status for clean branch state
 git status

@@ -46,9 +46,6 @@ mohamedosamaai/
 │   ├── mobile_ops.kt          # Kotlin Android field dispatch engine
 │   ├── styles/                # CSS design system tokens
 │   └── types/                 # Domain types & system contracts
-├── tools/
-│   ├── showcase-generator.ps1 # PowerShell showcase automation tool
-│   └── showcase-generator.sh  # Bash showcase automation tool
 ├── llms.txt                   # LLM indexing specification (llmstxt.org)
 ├── package.json               # Package configuration & scripts
 ├── README.md                  # Executive overview & C4 model

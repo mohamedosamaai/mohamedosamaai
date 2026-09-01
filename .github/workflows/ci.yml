@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   type-check:
-    name: Strict TypeScript Compilation Check
+    name: 🛡️ Strict TypeScript Compilation Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
@@ -49,7 +49,7 @@ jobs:
           category: "/language:javascript-typescript"
 
   build-validation:
-    name: Build & Verification Pipeline
+    name: ⚡ Build & Verification Pipeline
     needs: [type-check]
     runs-on: ubuntu-latest
     steps:

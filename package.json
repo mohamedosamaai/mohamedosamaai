@@ -1,16 +1,27 @@
 {
   "name": "@mohamedosamaai/ecosystem-master",
-  "version": "1.1.0",
-  "private": true,
-  "description": "Master Ecosystem Architecture Hub & System Blueprint | AI Infrastructure, Multi-Tenant SaaS Platforms & Distributed Microservices Organization.",
-  "author": "Mohamed Osama <mohamed@bagbacktech.com> (https://bagbacktech.com/ar)",
+  "version": "1.0.0",
+  "description": "Master Ecosystem Architecture Hub & Type Specifications | Cloud Infrastructure, Multi-Tenant SaaS Engines & Distributed Systems",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Mohamed Osama <im@mohamedosama.me> (https://mohamedosama.me)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedosamaai/mohamedosamaai.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
+    "build": "tsc",
     "type-check": "tsc --noEmit",
-    "check-types": "tsc --noEmit",
-    "showcase:generate": "powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1"
+    "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^5.8.2"
   }
 }

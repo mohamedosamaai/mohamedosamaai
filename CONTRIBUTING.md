@@ -16,10 +16,10 @@ All contributions, feature pull requests, and codebase modifications must comply
 Before submitting a pull request:
 ```bash
 # 1. Verify strict TypeScript compilation
-npm run type-check
+npm run check-types
 
-# 2. Execute local showcase generator script
-powershell -ExecutionPolicy Bypass -File ./tools/showcase-generator.ps1
+# 2. Build packages and verify outputs
+npm run build
 ```
 
 ## 📬 Security Concerns

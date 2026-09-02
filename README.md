@@ -271,7 +271,7 @@ npm run build
       <img src="https://img.shields.io/badge/Portfolio-C084FC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
     </a>
     &nbsp;
-    <a href="https://linkedin.com/in/mohamedosamaai">
+    <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;

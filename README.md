@@ -216,23 +216,23 @@ graph TB
   <summary><b>View Architectural Repository Matrix</b> (Click to Expand)</summary>
   <br>
   
-  | # | Repository Name | Core Tech Stack | Architectural Function & Scope |
-  | :-: | :--- | :--- | :--- |
-  | **1** | **[BagbackTech](https://bagbacktech.com)** | Next.js 15.5, Genkit AI, Dialogflow CX | Flagship AI Product Studio & Startup Enablement Platform. Driven by multi-agent orchestration for business ideation and execution. |
-  | **2** | **[Elitk](https://elitk.com)** | Express 5, React 18, Vite 7, PostgreSQL 16, Drizzle | Standalone AI Marketing & Automation Platform. Engineered for dynamic content generation, CRM, and customer engagement workflows. |
-  | **3** | **[AI Workspace](https://ai.bagbacktech.com)** | FastAPI (Python 3.12), Cloud Run, React | Internal developer knowledge base and AI prompt library designed for AI workflows, reusable components, and enhancing internal AI infrastructure. |
-  | **4** | **[(Ops)](https://ops.bagbacktech.com)** / `laforma-ops-app` | Next.js 15, React 19, Firebase, Kotlin Android | Enterprise Business Operations Platform. Manages workflow automation, real-time field operations, and ground agent dispatch tracking. |
-  | **5** | **[Bagback Commerce](https://bagback.shop)** | Laravel 9 (PHP 8.2), Vue 3, MariaDB, Redis | Wholesale Commerce Engine. Multi-vendor platform featuring scalable async webhook payment queues and commission tracking. *(Portfolio Project)* |
-  | **6** | **[Laforma Platform](https://laforma.ae)** | Next.js 14, React 18, TailwindCSS, Firebase Admin | Bilingual Lead-Generation Platform. Features responsive static export architecture and parallel RTL/LTR layouts. *(Client Implementation)* |
-  | **7** | **[BAGBACK_BOT](https://t.me/Bagback_bot)** | Python 3.12, Gemini 2.5 Flash, Telegram API | Central AI Telegram command center (`@Bagback_bot`) and automated contextual article generation engine. |
-  | **8** | **[Download](https://download.bagbacktech.com)** / `bagback-download` | Vite, React 19, TypeScript 5.5, Express, yt-dlp | Unified stream and media format extraction monorepo engine. Handles async format analysis and media downloading across the ecosystem. |
-  | **9** | **[VOUNO Platform](https://vouno.ae/)** | React 19, Vite 6, Express, Google GenAI, jsPDF | UAE Trade Finance & Fintech SaaS. Secure digital transformation project featuring live bank guarantee verification pipelines and automated reporting. *(Client Implementation)* |
-  | **10** | **[Google I/O 2026](https://8.elitk.com/)** | Three.js, React Three Fiber, MediaPipe Vision | Independent build for a Google I/O 2026 challenge. Features interactive 3D WebGL and real-time camera face mesh tracking. *(Isolated from ELITK)* |
-  | **11** | **[elzayd-landing](https://elzayd.com)** | HTML5, Modern CSS3, Cloudflare Pages | Premium domain sales landing page featuring a bilingual layout and an optimized conversion funnel architecture. |
-  | **12** | **[Portfolio](https://mohamedosama.me)** / `mohamed` | Next.js 16, React 19, Better-SQLite3 | Personal developer portfolio and centralized ecosystem index integrated with a fast SQLite administrative CMS dashboard. |
-  | **13** | **[Mail](https://mail.bagbacktech.com)** / `bagback-hub` | Next.js 16, React 19, IMAPFlow, Mailparser | Unified AI-powered business inbox client and async email processing hub consolidating multiple IMAP/SMTP accounts. |
-  | **14** | `bagback-server` | OVH VPS Extreme, Caddy 2, Docker, WireGuard | Core production server infrastructure (`bagback-codex`) and reverse proxy routing architecture hosting the complete ecosystem. |
-  | **15** | `mohamedosamaai` | TypeScript 5.5, GitHub Actions CI/CD | Master ecosystem architecture hub functioning as the central index and automated CI/CD quality gate for all repositories. |
+  | # | Platform / Repository | Core Tech Stack | Architectural Function & Scope | Access & Classification |
+  | :-: | :--- | :--- | :--- | :---: |
+  | **1** | **[BagbackTech](https://bagbacktech.com)** | Next.js 15.5, Genkit AI, Dialogflow CX, Firebase Admin | Flagship AI Product Studio & Startup Enablement Platform. Driven by multi-agent orchestration for business ideation and execution. | `LIVE PRODUCTION` |
+  | **2** | **[Elitk](https://elitk.com)** | Express 5, React 18, Vite 7, PostgreSQL 16, Drizzle | Standalone AI Marketing & Automation Platform. Multi-tenant architecture for dynamic content generation, CRM, and growth workflows. | `LIVE PRODUCTION` |
+  | **3** | **[AI Workspace](https://ai.bagbacktech.com)** | FastAPI (Python 3.12), Cloud Run, React, Cloud SQL | Internal developer knowledge base and AI prompt library designed for AI workflows, reusable components, and scale-to-zero GCP backend. | `LIVE PRODUCTION` |
+  | **4** | **[(Ops)](https://ops.bagbacktech.com)** / `laforma-ops-app` | Next.js 15, React 19, Firebase, Kotlin Android | Enterprise Business Operations Platform. Manages workflow automation, real-time field operations, and ground agent dispatch tracking. | `LIVE PRODUCTION` |
+  | **5** | **[Bagback Commerce](https://bagback.shop)** | Laravel 9 (PHP 8.2), Vue 3, MariaDB, Redis, Stripe | Wholesale Commerce Engine. Multi-vendor platform featuring scalable async webhook payment queues and commission tracking. | `LIVE PRODUCTION` |
+  | **6** | **[Laforma Platform](https://laforma.ae)** | Next.js 14, React 18, TailwindCSS, Firebase Admin | Bilingual Lead-Generation Platform. Features responsive static export architecture and parallel RTL/LTR layouts. | `CLIENT IMPLEMENTATION` |
+  | **7** | **[BAGBACK_BOT](https://t.me/Bagback_bot)** | Python 3.12, Gemini 2.5 Flash, Telegram API | Central AI Telegram command center (`@Bagback_bot`) and automated contextual article generation engine. | `LIVE PRODUCTION` |
+  | **8** | **[Bagback Download](https://github.com/mohamedosamaai/bagback-download-showcase)** | React 19 PWA, Vite 6, Express, TypeScript, yt-dlp | Unified stream and media extraction monorepo engine. Full public showcase with type-safe mock layer and published packages. | `PUBLIC SHOWCASE (MIT)` |
+  | **9** | **[VOUNO Platform](https://vouno.ae/)** | React 19, Vite 6, Express, Google GenAI, jsPDF | UAE Trade Finance & Fintech SaaS. Secure digital transformation project featuring live bank guarantee verification pipelines. | `CLIENT IMPLEMENTATION` |
+  | **10** | **[Google I/O 2026](https://8.elitk.com/)** | Three.js, React Three Fiber, MediaPipe Vision | Independent build for a Google I/O 2026 challenge. Features interactive 3D WebGL and real-time camera face mesh tracking. | `LIVE PRODUCTION` |
+  | **11** | **[elzayd-landing](https://elzayd.com)** | HTML5, Modern CSS3, Cloudflare Pages | Premium domain sales landing page featuring a bilingual layout and an optimized conversion funnel architecture. | `LIVE PRODUCTION` |
+  | **12** | **[Portfolio](https://mohamedosama.me)** | Next.js 16, React 19, Better-SQLite3, TailwindCSS 4 | Personal developer portfolio and centralized ecosystem index integrated with a fast SQLite administrative CMS dashboard. | `LIVE PRODUCTION` |
+  | **13** | **[Mail](https://mail.bagbacktech.com)** | Next.js 16, React 19, IMAPFlow, Mailparser, Nodemailer | Unified AI-powered business inbox client and async email processing hub consolidating multiple IMAP/SMTP accounts. | `LIVE PRODUCTION` |
+  | **14** | `bagback-server` | OVH VPS Extreme, Caddy 2, Docker, WireGuard | Core production server infrastructure (`bagback-codex`) and reverse proxy routing architecture hosting the complete ecosystem. | `INFRASTRUCTURE` |
+  | **15** | **[mohamedosamaai](https://github.com/mohamedosamaai/mohamedosamaai)** | TypeScript 5.8, GitHub Actions CI/CD | Master ecosystem architecture hub, published package contracts (`@mohamedosamaai/ecosystem-master`), and automated CI/CD quality gate. | `ARCHITECTURE HUB` |
 
 </details>
 

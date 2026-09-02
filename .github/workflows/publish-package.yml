@@ -13,6 +13,8 @@ jobs:
     permissions:
       contents: read
       packages: write
+      id-token: write
+      attestations: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,8 +32,19 @@ jobs:
       - name: Build Types & Dist
         run: npm run build
 
+      - name: Pack Distribution Tarball
+        id: pack
+        run: |
+          TARBALL=$(npm pack)
+          echo "tarball=$TARBALL" >> $GITHUB_OUTPUT
+
+      - name: Attest Build Provenance
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: ${{ steps.pack.outputs.tarball }}
+
       - name: Publish Ecosystem Master Package
         run: |
-          npm publish --access public || echo "Package version already published"
+          npm publish ${{ steps.pack.outputs.tarball }} --access public || echo "Package version already published"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -60,6 +60,7 @@ graph TB
         RedisCache[("Redis In-Memory Job Store & Cache<br/><i>(Pub/Sub + Task Queues)</i>")]
         PostgresDB[("PostgreSQL Multi-Tenant Database<br/><i>(Drizzle ORM + Connection Pool)</i>")]
         VectorStore[("Vector DB Embeddings Store<br/><i>(HNSW Vector Index)</i>")]
+        GCS[("Google Cloud Storage & Media Cache")]
     end
 
     %% Routing

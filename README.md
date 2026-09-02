@@ -264,15 +264,31 @@ npm run build
 ---
 
 <div align="center">
-  <h3>Let's Connect</h3>
+  <h3>Let's Connect & Collaborate</h3>
   
   <p align="center">
     <a href="https://mohamedosama.me">
-      <img src="https://img.shields.io/badge/Portfolio-C084FC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/Portfolio-mohamedosama.me-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="https://devpost.com/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost" />
+    </a>
+    &nbsp;
+    <a href="https://g.dev/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer" />
+    </a>
+    &nbsp;
+    <a href="https://www.credly.com/users/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" />
+    </a>
+    &nbsp;
+    <a href="https://wa.me/971505465814">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
     &nbsp;
     <a href="https://x.com/mohamedosamaai">
@@ -280,7 +296,7 @@ npm run build
     </a>
     &nbsp;
     <a href="mailto:im@mohamedosama.me">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-im@mohamedosama.me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
 </div>

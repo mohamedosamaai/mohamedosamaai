@@ -23,8 +23,8 @@
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="https://buymeacoffee.com/mohamedosama">
-      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosama-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
+    <a href="https://buymeacoffee.com/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosamaai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
     </a>
     <a href="https://github.com/users/mohamedosamaai/projects/13">
       <img src="https://img.shields.io/badge/Project_Board-%2313_Active-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Project Board" />
@@ -263,8 +263,8 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
-    <a href="https://buymeacoffee.com/mohamedosama">
-      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosama-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
+    <a href="https://buymeacoffee.com/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosamaai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
     </a>
     &nbsp;
     <a href="https://devpost.com/mohamedosamaai">

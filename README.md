@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- Animated Cyber Typing SVG Header -->
+  <!-- Animated Cyber Typing SVG Header (Robust Encoded Endpoint) -->
   <a href="https://github.com/mohamedosamaai">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=26&duration=2500&pause=1000&color=10B981&center=true&vCenter=true&width=780&lines=Welcome+to+Mohamed+Osama+Ecosystem!;AI+Systems+Architect+%26+Cloud+Infrastructure+Engineer;Founder+%40+Bagback+Digital+Solutions+(Cairo%2C+Egypt);Sovereign+Multi-Tenant+SaaS%2C+Commerce+%26+3D+WebGL" alt="Mohamed Osama Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=26&duration=2500&pause=1000&color=10B981&center=true&vCenter=true&width=780&lines=Welcome+to+Mohamed+Osama+Ecosystem!;AI+Systems+Architect+and+Cloud+Infrastructure+Engineer;Founder+at+Bagback+Digital+Solutions;Sovereign+Multi-Tenant+SaaS+Commerce+and+3D+WebGL" alt="Mohamed Osama Typing Banner" />
   </a>
 
   <br/>
@@ -23,14 +23,14 @@
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
+    <a href="https://buymeacoffee.com/mohamedosama">
+      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosama-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
+    </a>
     <a href="https://github.com/users/mohamedosamaai/projects/13">
       <img src="https://img.shields.io/badge/Project_Board-%2313_Active-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Project Board" />
     </a>
     <a href="https://g.dev/mohamedosamaai">
       <img src="https://img.shields.io/badge/Google_Developer-Certified-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer" />
-    </a>
-    <a href="https://www.credly.com/users/mohamedosamaai">
-      <img src="https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" />
     </a>
   </p>
 
@@ -52,7 +52,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedosamaai/mohamedosamaai/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedosamaai/mohamedosamaai/main/profile-3d-contrib/profile-green-animate.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedosamaai/mohamed-showcase/main/profile-3d-contrib/profile-green-animate.svg">
     <img alt="Mohamed Osama 3D Contribution Grid" src="https://raw.githubusercontent.com/mohamedosamaai/mohamedosamaai/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
   </picture>
 </div>
@@ -128,8 +128,6 @@ The following platforms represent the active live production platforms engineere
 ---
 
 ## 🏗️ C4 System Architecture Diagram
-
-The diagram below illustrates the end-to-end architecture across client interfaces, edge reverse proxies, distributed microservices, and database persistence tiers:
 
 ```mermaid
 graph TB
@@ -265,16 +263,16 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
+    <a href="https://buymeacoffee.com/mohamedosama">
+      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosama-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
+    </a>
+    &nbsp;
     <a href="https://devpost.com/mohamedosamaai">
       <img src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost" />
     </a>
     &nbsp;
     <a href="https://g.dev/mohamedosamaai">
       <img src="https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer" />
-    </a>
-    &nbsp;
-    <a href="https://www.credly.com/users/mohamedosamaai">
-      <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" />
     </a>
     &nbsp;
     <a href="https://wa.me/971505465814">

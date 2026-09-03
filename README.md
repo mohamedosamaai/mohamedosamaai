@@ -23,6 +23,9 @@
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
+    <a href="https://github.com/sponsors/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Sponsor-mohamedosamaai-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+    </a>
     <a href="https://buymeacoffee.com/mohamedosamaai">
       <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosamaai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
     </a>
@@ -261,6 +264,10 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
     &nbsp;
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/sponsors/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Sponsor-mohamedosamaai-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
     </a>
     &nbsp;
     <a href="https://buymeacoffee.com/mohamedosamaai">

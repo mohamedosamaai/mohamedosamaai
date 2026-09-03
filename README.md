@@ -2,7 +2,7 @@
 
   <!-- Animated Cyber Typing SVG Header -->
   <a href="https://github.com/mohamedosamaai">
-    <img src="https://readme-typing-svg.demolab.com/?font=Outfit&size=26&pause=1000&color=10B981&center=true&vCenter=true&width=780&lines=Welcome+to+Mohamed+Osama+Ecosystem!;AI+Systems+Architect+%26+Cloud+Infrastructure+Engineer;Founder+%40+Bagback+Digital+Solutions+(Dubai%2C+UAE);Sovereign+Multi-Tenant+SaaS%2C+Commerce+%26+3D+WebGL" alt="Mohamed Osama Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=26&duration=2500&pause=1000&color=10B981&center=true&vCenter=true&width=780&lines=Welcome+to+Mohamed+Osama+Ecosystem!;AI+Systems+Architect+%26+Cloud+Infrastructure+Engineer;Founder+%40+Bagback+Digital+Solutions+(Cairo%2C+Egypt);Sovereign+Multi-Tenant+SaaS%2C+Commerce+%26+3D+WebGL" alt="Mohamed Osama Typing Banner" />
   </a>
 
   <br/>
@@ -61,7 +61,7 @@
 
 ## 🏛️ Executive Engineering Overview
 
-I am **Mohamed Osama**, Founder & Lead AI Systems Architect at **Bagback Digital Solutions** (CR: `218773`, Tax ID: `757-139-248`, Dubai, UAE & Cairo, Egypt).
+I am **Mohamed Osama**, Founder & Lead AI Systems Architect at **Bagback Digital Solutions** (CR: `218773`, Tax ID: `757-139-248`, Cairo, Egypt), based and practicing in **Dubai, United Arab Emirates (UAE)**.
 
 I architect and deliver sovereign digital platforms, resilient multi-tenant backends, real-time conversion attribution engines, and interactive WebGL/Three.js spatial applications. Every platform in this ecosystem is engineered under strict type safety contracts, deterministic CI/CD pipelines, zero-CVE security baselines, and Sigstore SLSA Level 3 provenance verification.
 
@@ -84,8 +84,7 @@ The following platforms represent the active live production platforms engineere
 | **9** | **Bagback Shop** | [bagback.shop](https://bagback.shop) | Laravel 9 (PHP 8.2), Vue 3, MariaDB, Redis, Stripe Connect | **Multi-Vendor Luxury Commerce Platform:** Wholesale & retail commerce platform with real-time affiliate conversion attribution engine, split payouts, and double-entry commission ledger. | `LIVE PRODUCTION` |
 | **10** | **Laforma** | [laforma.ae](https://laforma.ae) | Next.js 14, React 18, TypeScript 5.9, TailwindCSS 3.4, Firebase | **Technical Services Platform (Dubai, UAE):** High-performance bilingual (Arabic/English) platform with responsive static export architecture and parallel RTL/LTR conversion funnels. | `CLIENT PLATFORM` |
 | **11** | **Mohamed Osama Platform** | [mohamedosama.me](https://mohamedosama.me) | Next.js 16, React 19, Better-SQLite3, TailwindCSS 4, Caddy 2 | **Sovereign Developer Platform & CMS:** Personal developer portfolio and ecosystem command center integrated with a fast SQLite administrative CMS dashboard. | `LIVE PRODUCTION` |
-| **12** | **BAGBACK_BOT** | [t.me/Bagback_bot](https://t.me/Bagback_bot) | Python 3.12, Gemini 2.5 Flash, `python-telegram-bot`, Docker | **AI Telegram Command Center:** Central Telegram command hub (`@Bagback_bot`) and automated contextual article generation engine with persistent vector knowledge retrieval. | `LIVE PRODUCTION` |
-| **13** | **elzayd-landing** | [elzayd.com](https://elzayd.com) | HTML5, Modern CSS3, Schema.org JSON-LD, Cloudflare Pages | **Premium Domain Sales Platform:** Bilingual domain landing page featuring optimized conversion funnel architecture and instant escrow transaction integration. | `LIVE PRODUCTION` |
+| **12** | **elzayd-landing** | [elzayd.com](https://elzayd.com) | HTML5, Modern CSS3, Schema.org JSON-LD, Cloudflare Pages | **Premium Domain Sales Platform:** Bilingual domain landing page featuring optimized conversion funnel architecture and instant escrow transaction integration. | `LIVE PRODUCTION` |
 
 ---
 
@@ -150,7 +149,6 @@ graph TB
     subgraph Microservices ["Microservices & AI Compute Layer"]
         API["ELITK Marketing API (Express 5 + SSE Streaming)"]
         FastAPI["AI Workspace Backend (Python 3.12 + Cloud Run)"]
-        Bot["BAGBACK_BOT Command Hub (Gemini 2.5 Flash)"]
         Laravel["BAGBACK Multi-Vendor Core (Laravel 9 + Sanctum)"]
         Mail["Webmail Worker (IMAPFlow + Mailparser + Gemini)"]
     end
@@ -174,7 +172,6 @@ graph TB
     FastAPI --> Postgres
     Laravel --> Maria
     Laravel --> Redis
-    Bot --> Redis
     Mail --> SQLite
 ```
 
@@ -224,8 +221,8 @@ graph TB
 
 | Showcase Repository | Open Source Packages | Highlights & Interfaces |
 | :--- | :--- | :--- |
-| 🏛️ **[mohamedosamaai/mohamed-showcase](https://github.com/mohamedosamaai/mohamed-showcase)** | `@mohamedosamaai/mohamed-showcase`<br/>`@mohamedosamaai/mohamed-core`<br/>`@mohamedosamaai/mohamed-mock` | TypeScript 5.7+ contracts, mock simulation layer, and interactive Cyber Bento dashboard. |
-| 🛍️ **[mohamedosamaai/bagback-showcase](https://github.com/mohamedosamaai/bagback-showcase)** | `@mohamedosamaai/bagback-showcase`<br/>`@mohamedosamaai/bagback-core`<br/>`@mohamedosamaai/bagback-mock` | Multi-vendor commerce contracts, affiliate attribution simulator, and SLSA Level 3 provenance. |
+| 🏛️ **[mohamedosamaai/mohamed-showcase](https://github.com/mohamedosamaai/mohamed-showcase)** | `@mohamedosamaai/mohamed-showcase` | TypeScript 5.7+ contracts, mock simulation layer, and interactive Cyber Bento dashboard. |
+| 🛍️ **[mohamedosamaai/bagback-showcase](https://github.com/mohamedosamaai/bagback-showcase)** | `@mohamedosamaai/bagback-showcase` | Multi-vendor commerce contracts, affiliate attribution simulator, and SLSA Level 3 provenance. |
 | 📥 **[mohamedosamaai/bagback-download-showcase](https://github.com/mohamedosamaai/bagback-download-showcase)** | `@mohamedosamaai/bagback-download-showcase` | Unified stream and media extraction monorepo engine. |
 
 ---
@@ -247,7 +244,8 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
 ## 🏛️ Verified Authority & Accreditations
 
 - 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
-- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Dubai, UAE & Cairo, Egypt)
+- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Cairo, Egypt)
+- 📍 **Founder & Lead Architect:** Mohamed Osama (Dubai, United Arab Emirates)
 - 🏆 **Dubai Chamber of Digital Economy:** Notable Contribution Award (`MeYYoRxN`)
 - ☁️ **Google Cloud:** Vertex AI Studio Practitioner ID `#24009731`
 - 📈 **Google Skillshop:** Conversion Rate Optimization Certification ID `#192682733`
@@ -289,6 +287,6 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
   </p>
 
   <p class="text-xs">
-    © 2026 Mohamed Osama · Bagback Digital Solutions · All Systems Certified SLSA Level 3
+    © 2026 Mohamed Osama · Bagback Digital Solutions (Cairo, Egypt) · All Systems Certified SLSA Level 3
   </p>
 </div>

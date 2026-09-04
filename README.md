@@ -17,8 +17,8 @@
     <a href="https://mohamedosama.me">
       <img src="https://img.shields.io/badge/Portfolio-mohamedosama.me-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
     </a>
-    <a href="https://www.wikidata.org/wiki/Q141252311">
-      <img src="https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white" alt="Wikidata" />
+    <a href="https://devpost.com/mohamedosamaai">
+      <img src="https://img.shields.io/badge/Devpost-mohamedosamaai-003E54?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost" />
     </a>
     <a href="https://www.linkedin.com/in/mohamed-osama-ai/">
       <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -39,11 +39,21 @@
 
   <!-- Government & Enterprise Credentials -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Dubai_Chamber-Notable_Award_MeYYoRxN-gold?style=flat-square&logo=adguard&logoColor=black" alt="Dubai Chamber" />
-    <img src="https://img.shields.io/badge/Google_Cloud-Vertex_AI_24009731-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI" />
-    <img src="https://img.shields.io/badge/CRO_Certified-Skillshop_192682733-34A853?style=flat-square&logo=googleanalytics&logoColor=white" alt="Skillshop CRO" />
-    <img src="https://img.shields.io/badge/Semrush-Technical_SEO_807156-FF642D?style=flat-square&logo=semrush&logoColor=white" alt="Semrush" />
-    <img src="https://img.shields.io/badge/Entity-CR:_218773_|_Tax:_757--139--248-10b981?style=flat-square" alt="Bagback Digital Solutions" />
+    <a href="https://mohamedosama.me/certificates/create-apps-championship.pdf">
+      <img src="https://img.shields.io/badge/Dubai_Chamber-Notable_Award_MeYYoRxN-gold?style=flat-square&logo=adguard&logoColor=black" alt="Dubai Chamber" />
+    </a>
+    <a href="https://www.skills.google/public_profiles/8e479ae0-4f8b-4bdd-abc6-d196d14dc6f5/badges/24009731">
+      <img src="https://img.shields.io/badge/Google_Cloud-Vertex_AI_24009731-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI" />
+    </a>
+    <a href="https://skillshop.credential.net/f1073072-84ce-4acf-b765-3aad44fe4490">
+      <img src="https://img.shields.io/badge/CRO_Certified-Skillshop_192682733-34A853?style=flat-square&logo=googleanalytics&logoColor=white" alt="Skillshop CRO" />
+    </a>
+    <a href="https://static.semrush.com/academy/certificates/788c3f38f6/mohamed-osama-hegazy_25.pdf">
+      <img src="https://img.shields.io/badge/Semrush-Technical_SEO_807156-FF642D?style=flat-square&logo=semrush&logoColor=white" alt="Semrush" />
+    </a>
+    <a href="https://bagbacktech.com">
+      <img src="https://img.shields.io/badge/Entity-CR:_218773_|_Tax:_757--139--248-10b981?style=flat-square" alt="Bagback Digital Solutions" />
+    </a>
   </p>
 
 </div>
@@ -185,7 +195,7 @@ graph TB
   <br/>
   
   - **Context-Aware Prompt Grounding:** Semantic integration with Google Cloud Vertex AI Studio and Gemini 2.5 Flash.
-  - **Machine-Readable AI Contexts:** Standardized `llms.txt` and `llms-full.txt` files anchored to Wikidata Entity `Q141252311` across all domains.
+  - **Machine-Readable AI Contexts:** Standardized `llms.txt` and `llms-full.txt` files anchored to verified Google Developer credentials and domain entities across all platforms.
   - **MCP Protocol Integrations:** High-throughput Model Context Protocol server endpoints for autonomous agent discovery.
 </details>
 
@@ -244,13 +254,13 @@ Comprehensive technical documentation is hosted on the official GitHub Wikis:
 
 ## 🏛️ Verified Authority & Accreditations
 
-- 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
+- 🌐 **Google Developer Profile:** [`g.dev/mohamedosamaai`](https://g.dev/mohamedosamaai)
 - 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Cairo, Egypt)
 - 📍 **Founder & Lead Architect:** Mohamed Osama (Dubai, United Arab Emirates)
-- 🏆 **Dubai Chamber of Digital Economy:** Notable Contribution Award (`MeYYoRxN`)
-- ☁️ **Google Cloud:** Vertex AI Studio Practitioner ID `#24009731`
-- 📈 **Google Skillshop:** Conversion Rate Optimization Certification ID `#192682733`
-- 🎓 **Semrush Academy:** Technical SEO & Content Marketing ID `#807156`
+- 🏆 **Dubai Chamber of Digital Economy:** [Notable Contribution Award (`MeYYoRxN`)](https://mohamedosama.me/about#credentials)
+- ☁️ **Google Cloud:** [Vertex AI Studio Practitioner ID `#24009731`](https://www.skills.google/public_profiles/8e479ae0-4f8b-4bdd-abc6-d196d14dc6f5/badges/24009731)
+- 📈 **Google Skillshop:** [Conversion Rate Optimization Certification ID `#192682733`](https://skillshop.credential.net/f1073072-84ce-4acf-b765-3aad44fe4490)
+- 🎓 **Semrush Academy:** [Technical SEO & Content Marketing ID `#807156`](https://static.semrush.com/academy/certificates/788c3f38f6/mohamed-osama-hegazy_25.pdf)
 
 ---
 

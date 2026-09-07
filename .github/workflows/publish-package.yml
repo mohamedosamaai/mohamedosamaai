@@ -39,7 +39,7 @@ jobs:
           echo "tarball=$TARBALL" >> $GITHUB_OUTPUT
 
       - name: Attest Build Provenance
-        uses: actions/attest-build-provenance@v2
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: ${{ steps.pack.outputs.tarball }}
 

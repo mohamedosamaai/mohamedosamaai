@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate 3D Profile Graphs
         uses: yoshi389111/github-profile-3d-contrib@0.7.2
